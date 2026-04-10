@@ -67,10 +67,23 @@ https://drive.google.com/drive/folders/1-1phCtUWiTU8LPMCXBHtyJ6uNNjxaiZF
 - [Сводная статистика](all_models_summary.csv)
 
 ## Графики обучения
-
+![Color Ablation](https://github.com/sunshine-lllssi/Ladies_lab_3_segmentation/blob/main/Best_code/loss_curves_seed_FPN_0042.png)
+![Color Ablation](https://github.com/sunshine-lllssi/Ladies_lab_3_segmentation/blob/main/Best_code/loss_curves_seed_FPN_2026.png)
+![Color Ablation](https://github.com/sunshine-lllssi/Ladies_lab_3_segmentation/blob/main/Best_code/loss_curves_seed_FPN_9999.png)
+![Color Ablation](https://github.com/sunshine-lllssi/Ladies_lab_3_segmentation/blob/main/Best_code/loss_curves_seed_UnetPlusPlus_0042.png)
+![Color Ablation](https://github.com/sunshine-lllssi/Ladies_lab_3_segmentation/blob/main/Best_code/loss_curves_seed_UnetPlusPlus_2026.png)
+![Color Ablation](https://github.com/sunshine-lllssi/Ladies_lab_3_segmentation/blob/main/Best_code/loss_curves_seed_UnetPlusPlus_9999.png)
 ### Сравнение моделей (UNet++ vs FPN)
+![Color Ablation](https://github.com/sunshine-lllssi/Ladies_lab_3_segmentation/blob/main/Best_code/Снимок%20экрана%202026-04-10%20232657.png)
+![Color Ablation](https://github.com/sunshine-lllssi/Ladies_lab_3_segmentation/blob/main/Best_code/Снимок%20экрана%202026-04-10%20232710.png)
 
-+
+UNet++:
+  Лучший Val Dice: 0.9120 (эпоха 39)
+  Лучший Val IoU: 0.8505
+
+FPN:
+  Лучший Val Dice: 0.9164 (эпоха 67)
+  Лучший Val IoU: 0.8590
 
 ### Сравнение Validation Loss, Dice, IoU по всем сидам
 
