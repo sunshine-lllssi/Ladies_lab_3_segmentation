@@ -1,28 +1,46 @@
-## Использовали:
+# Лучший результат на public
 
-Архитектура: U-Net++ с энкодером EfficientNet-B3 (предобучен на ImageNet)
+## Результаты
 
-Ансамблирование 3 моделей, обученных с разными seed :
-- 9999
-- 42
-- 2026
+- **Лучший сид (seed):** 42
+- **Лучший Validation Dice:** 0.9197 (эпоха 62)
+- **Лучший Validation IoU:** 0.8638 (эпоха 79)
 
-## Обучение моделей
+## Модель
 
-- Реализован пайплайн обучения с логированием и early stopping
+- **Архитектура:** UnetPlusPlus
+- **Энкодер:** timm-efficientnet-b3
+- **Предобучение:** ImageNet
 
-- Использованы 3  seed (9999, 42, 2026) 
+## Обучение
 
-Лучший результат достигнут при seed=42:
+Мы обучили модель сегментации на трех различных сидах (2026, 9999, 0042). Лучшие результаты показал seed = **42**.
 
-- Validation Dice: 0.9197
+**Параметры обучения:**
+- Эпох: 85
+- Размер батча: 4
+- Размер изображения: 512x512
+- Оптимизатор: AdamW (LR=3e-4, Weight Decay=1e-4)
+- Функция потерь: Combined Loss (BCE + Dice)
+- Планировщик LR: ReduceLROnPlateau
+- Аугментация: HorizontalFlip, VerticalFlip, RandomRotate90
 
-- Validation IoU: 0.8638
 
-Веса:
+## Таблицы с метриками по эпохам
+
+## Лучшие метрики по каждому сиду
+
+| Seed | Лучший Dice | Эпоха | Лучший IoU | Лучший Loss |
+|------|-------------|-------|------------|-------------|
+| 0042 | 0.9197 | 62 | 0.8638 | 0.0681 |
+| 9999 | 0.9126 | 55 | 0.8513 | 0.0641 |
+| 2026 | 0.9084 | 50 | 0.8501 | 0.0719 |
+
+
+## Веса моделей:
 https://drive.google.com/drive/folders/1-cLjAVSxjW8YMljtZmT4kwbDoRuz7l6Q?usp=drive_link
 
-## Визуализация 
+## Визуализация обучения
 ![Color Ablation](https://github.com/sunshine-lllssi/Ladies_lab_3_segmentation/blob/main/Code/Снимок%20экрана%202026-04-10%20222445.png)
 ![Color Ablation](https://github.com/sunshine-lllssi/Ladies_lab_3_segmentation/blob/main/Code/Снимок%20экрана%202026-04-10%20222517.png)
 ![Color Ablation](https://github.com/sunshine-lllssi/Ladies_lab_3_segmentation/blob/main/Code/Снимок%20экрана%202026-04-10%20222527.png)
