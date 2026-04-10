@@ -54,7 +54,7 @@
 
 ## Веса моделей
 
-+
+https://drive.google.com/drive/folders/1-1phCtUWiTU8LPMCXBHtyJ6uNNjxaiZF
 
 ## Таблицы с метриками по эпохам
 
@@ -86,10 +86,10 @@
 
 +
 
-## Ссылка на submission (ансамбль)
+## Ссылка на submission 
 
-+
+https://drive.google.com/drive/folders/1ASyMmN1MuM6A88Hf06OZ2NU0pUnjlbBz
 
 ## Код
 
-+
+(https://drive.google.com/drive/folders/1nMgl88w9Gb6eaP3c7zxd2zfkArYiyESK?usp=drive_link)
