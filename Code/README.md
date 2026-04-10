@@ -24,3 +24,5 @@ https://drive.google.com/drive/folders/1-cLjAVSxjW8YMljtZmT4kwbDoRuz7l6Q?usp=dri
 
 ## Визуализация 
 ![Color Ablation](https://github.com/sunshine-lllssi/Ladies_lab_3_segmentation/blob/main/Code/Снимок%20экрана%202026-04-10%20222445.png)
+![Color Ablation](https://github.com/sunshine-lllssi/Ladies_lab_3_segmentation/blob/main/Code/Снимок%20экрана%202026-04-10%20222517.png)
+![Color Ablation](https://github.com/sunshine-lllssi/Ladies_lab_3_segmentation/blob/main/Code/Снимок%20экрана%202026-04-10%20222527.png)
