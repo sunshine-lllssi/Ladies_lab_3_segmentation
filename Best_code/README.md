@@ -56,15 +56,6 @@
 
 https://drive.google.com/drive/folders/1-1phCtUWiTU8LPMCXBHtyJ6uNNjxaiZF
 
-## Таблицы с метриками по эпохам
-
-- [FPN seed 42 (лучший)](history_seed_0042.csv)
-- [FPN seed 9999](history_seed_9999.csv)
-- [FPN seed 2026](history_seed_2026.csv)
-- [UNet++ seed 9999 (лучший)](history_seed_9999_unet.csv)
-- [UNet++ seed 42](history_seed_0042_unet.csv)
-- [UNet++ seed 2026](history_seed_2026_unet.csv)
-- [Сводная статистика](all_models_summary.csv)
 
 ## Графики обучения
 ![Color Ablation](https://github.com/sunshine-lllssi/Ladies_lab_3_segmentation/blob/main/Best_code/loss_curves_seed_FPN_0042.png)
@@ -85,19 +76,11 @@ FPN:
   Лучший Val Dice: 0.9164 (эпоха 67)
   Лучший Val IoU: 0.8590
 
-### Сравнение Validation Loss, Dice, IoU по всем сидам
 
-+
-
-### Train/Validation Loss по каждому сиду
-
-| Seed 42 | Seed 9999 | Seed 2026 |
-|---------|-----------|-----------|
-| ![Loss 42](loss_curves_seed_0042.png) | ![Loss 9999](loss_curves_seed_9999.png) | ![Loss 2026](loss_curves_seed_2026.png) |
 
 ### Сравнение Loss всех сидов
 
-+
+![Color Ablation](https://github.com/sunshine-lllssi/Ladies_lab_3_segmentation/blob/main/Best_code/Снимок%20экрана%202026-04-10%20233129.png)
 
 ## Ссылка на submission 
 
